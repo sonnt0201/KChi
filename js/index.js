@@ -7,7 +7,7 @@ var string = [
   "em nhu bong hoa :<<",
   "nhung nguoi hai dau phai ta T_T",
   "em voi mang bao cau ca 🎶",
-  "troi ve noi xa xa ...",
+  "troi ve noi xa xa ~~~",
 ];
 var i = 0;
 function change(isForwards) {
