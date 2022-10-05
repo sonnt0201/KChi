@@ -45,7 +45,9 @@ i:hover {
 .decoration-item {
     text-align: center;
 }
-
+.card {
+    width: 60%;
+}
 #content {
     font-size: 2rem;
 }
@@ -61,6 +63,13 @@ i:hover {
 
 .footer {
     background-color: rgb(248, 243, 243);
+}
+
+/* media */
+@media (max-width:1028px) {
+    .card {
+        width: 90%;
+    }
 }
 /* set glow */
 @-webkit-keyframes glow {
