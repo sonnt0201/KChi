@@ -1,0 +1,40 @@
+body {
+    background-image: linear-gradient(to bottom, white, #aac4ff85 ,#9ad1ec6c, #ee69842b, #d58bdd54);
+    overflow: hidden;
+}
+h1 {
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 600%;
+    font-weight: bold;
+    color: #BFABDC;
+}
+img {
+    width: 25%;
+    padding: 0;
+    margin : 0;
+}
+i {
+    font-size: 1.5rem;
+    padding: 0 0.5rem 0;
+}
+.avt {
+    padding: 0;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+.first-decoration {
+    margin-top: 5rem;
+}
+.decoration-item {
+    text-align: center;
+}
+.btn-backward {
+    padding: 0;
+}
+.second-decoration {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
