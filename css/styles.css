@@ -1,7 +1,8 @@
 body {
-    background-image: linear-gradient(to bottom, white, #aac4ff85 ,#9ad1ec6c, #ee69842b, #d58bdd54);
+    background-image: linear-gradient(to bottom, white, #aac4ff85, #9ad1ec6c, #ee69842b, #d58bdd54);
     overflow: hidden;
 }
+
 h1 {
     text-align: center;
     font-family: 'Sacramento', cursive;
@@ -9,32 +10,79 @@ h1 {
     font-weight: bold;
     color: #BFABDC;
 }
+
 img {
     width: 25%;
     padding: 0;
-    margin : 0;
+    margin: 0;
 }
+
 i {
     font-size: 1.5rem;
     padding: 0 0.5rem 0;
+    color: black;
 }
+
+i:hover {
+    color: #FF4A4A;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
 .avt {
     padding: 0;
+    margin-left: 1rem;
     height: 2.5rem;
     width: 2.5rem;
     border-radius: 50%;
 }
+
 .first-decoration {
     margin-top: 5rem;
 }
+
 .decoration-item {
     text-align: center;
 }
+
+#content {
+    font-size: 2rem;
+}
+
 .btn-backward {
     padding: 0;
 }
+
 .second-decoration {
     margin-top: 2rem;
     margin-bottom: 5rem;
 }
 
+.footer {
+    background-color: rgb(248, 243, 243);
+}
+/* set glow */
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 
+        0 0 10px #fff, 
+        0 0 20px #fff, 
+        0 0 30px #e60073, 
+        0 0 40px #e60073, 
+        0 0 50px #e60073, 
+        0 0 60px #e60073, 
+        0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 
+        0 0 20px #fff, 
+        0 0 30px #ff4da6, 
+        0 0 40px #ff4da6, 
+        0 0 50px #ff4da6, 
+        0 0 60px #ff4da6, 
+        0 0 70px #ff4da6, 
+        0 0 80px #ff4da6;
+    }
+}
